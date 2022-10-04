@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício Tela Login</title>
+    <link rel="stylesheet" href="assets/css/main2.css">
+    
+</head>
+
+<body>
+   
+<section class="full-banner-form">
+
+    <div class="container-login">
+   <form class="form-login" method="post">
+
+    <label for="nome">
+   Nome*: 
+   <input type="text" name="nome" required id="login" placeholder="Digite o Nome" oninvalid="this.setCustomValidity ('O Campo nome é obrigatório')" oninput="this.setCustomValidity('')" />
+   </label>
+
+   <label for="e-mail">
+    E-mail*: 
+    <input type="text" name="e-mail" required id="login" placeholder="Digite seu e-mail" oninvalid="this.setCustomValidity ('O Campo e-mail é obrigatório')" oninput="this.setCustomValidity('')" />
+    </label>
+
+   <label for="senha">
+    Senha*:
+    <input type="password" name="login" required id="login" placeholder="Digite a senha" oninvalid="this.setCustomValidity ('O Campo senha é obrigatório')" oninput="this.setCustomValidity('')" />
+
+   </label>
+
+   <label for="senhaconfir">
+   Confirme a Senha*:
+    <input type="password" name="login" required id="login" placeholder="Digite a senha" oninvalid="this.setCustomValidity ('O Campo Confirme a senha é obrigatório')" oninput="this.setCustomValidity('')" />
+
+   </label>
+
+   <button type="submit">continuar</button>
+   <p><a href="#">Esqueci minha senha</a></p>
+   
+
+   </form>
+</div>
+</section>
+
+<footer>
+
+
+</footer>
